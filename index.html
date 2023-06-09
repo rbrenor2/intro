@@ -33,14 +33,14 @@
     />
     <!-- Main CSS -->
     <link href="assets/css/main.css" rel="stylesheet" />
-    <title>brenor2 - Software Developer</title>
+    <title>Breno Rios - Software Developer</title>
   </head>
   <body>
     <!-- header -->
     <header class="ds-header">
       <div class="container">
         <div class="ds-logo">
-          <a href="index.html">brenor2</a>
+          <a href="index.html">Breno Rios</a>
         </div>
       </div>
     </header>
@@ -53,8 +53,10 @@
             class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 col-xxl-7 ds-banner-left"
           >
             <h1 class="ds-banner-hed">
-              I’m a soft­ware devel­op­er based in Lisbon, Portugal.
+              Hello, <br />
+              I'm Breno Rios
             </h1>
+            <h2>and I’m a soft­ware devel­op­er based in Lisbon, Portugal.</h2>
             <ul class="ds-social">
               <li>
                 <a href="https://www.instagram.com/brenor2/" target="_blanck"
@@ -81,7 +83,7 @@
                 src="assets/images/banner-image.png"
                 class="ds-image-shadow"
               />
-              <figcaption>Breno Rios</figcaption>
+              <!-- <figcaption>Breno Rios</figcaption> -->
             </figure>
           </div>
         </div>
@@ -94,19 +96,17 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h2>
-              I am passionate about building excellent software that improves
-              the lives
+              I am passionate about building solutions to everyday people's and
+              business problems
             </h2>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <p>
               I am a seasoned software expert who has developed products for
-              enterprise clients such as Intuit, Yale University, and
-              Hewlett-Packard (HP), as well as many venture-backed businesses. I
-              specialize in building applications specific to the business needs
-              of my clients. I have done work in software development, mobile
-              app creation, front-end/back-end web, database/server management,
-              graphic design, and video game development.
+              enterprise clients such as Walmart and NFON, as well as many other
+              businesses. I specialize in building applications specific to the
+              business needs of my clients. I have done work in software
+              development, mobile app creation, front-end/back-end web.
             </p>
             <a href="#" class="ds-download-button"
               >Download Resume <i class="ri-download-line"></i
@@ -139,19 +139,25 @@
                 system that allows stores to transform big chunks of data into a
                 PDF containing price tags with the information uploaded. The
                 client is a furniture store chain from the northeast of Brazil
-                present in around 40 locations in the region. They needed a way
-                to create their price tags layout files so each store could
-                print the right prices and information about the products.
-                Before Preço Fácil they used to send Excel sheets to each store
-                via email and an employee should use it to print the layout.
-                This process led them to be prone to government fines up to R$
-                50.000 (around U$ 10.000) because they had to always ensure that
-                the data was synced between all the stores and also that there
-                were no changes made in the sheet by someone in the store. The
-                system is still evolving and the plan is to transform other
-                manual processes regarding pricing into new features inside the
-                app. Here is a project's walktrough video.</span
-              >
+                present in around 40 locations in the region.
+                <span id="read-more-1">
+                  They needed a way to create their price tags layout files so
+                  each store could print the right prices and information about
+                  the products. Before Preço Fácil they used to send Excel
+                  sheets to each store via email and an employee should use it
+                  to print the layout. This process led them to be prone to
+                  government fines up to R$ 50.000 (around U$ 10.000) because
+                  they had to always ensure that the data was synced between all
+                  the stores and also that there were no changes made in the
+                  sheet by someone in the store. The system is still evolving
+                  and the plan is to transform other manual processes regarding
+                  pricing into new features inside the app. Here is a project's
+                  walktrough video.
+                </span>
+                <button onclick="expand('read-more-1', 'myBtn-1')" id="myBtn-1">
+                  Read more
+                </button>
+              </span>
             </section>
           </div>
           <div
@@ -193,18 +199,25 @@
                 processes, from finding new real state to matching it to their
                 final client. The client was a real state agency specialized in
                 finding real state to help the expansion of big retail chains
-                across Brazil. They helped in the expansion of big brands like
-                Lojas Americanas, Magazine Luiza, Casas Bahia among others. The
-                agent’s job started when a client wanted to expand to a region,
-                so they would travel there to find good real state candidates to
-                be approved by the expansion team of the brand. Before MCI
-                Software all of this processes were done manually. They also
-                didn’t have a central place to store data like real state
-                photos, landlords contacts, demographics information and so on.
-                MCI Software aimed to transform this process with an Progressive
-                Web App (PWA) built with Ionic + Angular + Firebase that would
-                allow the agents to search, add and track the progress of a deal
-                with their clients. Project's walktrough video coming soon.
+                across Brazil.
+                <span id="read-more-2">
+                  They helped in the expansion of big brands like Lojas
+                  Americanas, Magazine Luiza, Casas Bahia among others. The
+                  agent’s job started when a client wanted to expand to a
+                  region, so they would travel there to find good real state
+                  candidates to be approved by the expansion team of the brand.
+                  Before MCI Software all of this processes were done manually.
+                  They also didn’t have a central place to store data like real
+                  state photos, landlords contacts, demographics information and
+                  so on. MCI Software aimed to transform this process with an
+                  Progressive Web App (PWA) built with Ionic + Angular +
+                  Firebase that would allow the agents to search, add and track
+                  the progress of a deal with their clients. Project's
+                  walktrough video coming soon.
+                </span>
+                <button onclick="expand('read-more-2','myBtn-2')" id="myBtn-2">
+                  Read more
+                </button>
               </span>
             </section>
           </div>
@@ -226,12 +239,17 @@
                 >A web crawler to gather data from products announced in Olx
                 Brasil. Some products have a very strong second hand market,
                 with lots of people making money trough good opportunities found
-                in these craiglist-style websites. The product I chose to start
-                gathering data was the iPhone. The idea is to extract insights
-                from this data and provide them to professionals specialized in
-                selling these second hand devices. Project's walktrough video
-                coming soon.</span
-              >
+                in these craiglist-style websites.
+                <span id="read-more-3">
+                  The product I chose to start gathering data was the iPhone.
+                  The idea is to extract insights from this data and provide
+                  them to professionals specialized in selling these second hand
+                  devices. Project's walktrough video coming soon.
+                </span>
+                <button onclick="expand('read-more-3','myBtn-3' )" id="myBtn-3">
+                  Read more
+                </button>
+              </span>
             </section>
           </div>
         </div>

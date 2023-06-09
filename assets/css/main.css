@@ -173,10 +173,10 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  color: #2a2a2a;
+  color: white;
 }
 .ds-social li:hover a {
-  background-color: #a63232;
+  background-color: white;
   color: #000;
 }
 
@@ -185,7 +185,7 @@ img {
   position: relative;
 }
 .ds-banner figure figcaption {
-  color: #fff;
+  color: black;
   font-size: 1.875rem;
   position: absolute;
   bottom: 0;
@@ -492,4 +492,14 @@ img {
   .ds-banner figure {
     margin-right: 1.875rem;
   }
+}
+
+#read-more-1,
+#read-more-2,
+#read-more-3 {
+  display: none;
+}
+
+.ds-projects-loop {
+  margin-bottom: 20px;
 }
