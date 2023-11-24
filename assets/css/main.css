@@ -503,3 +503,7 @@ img {
 .ds-projects-loop {
   margin-bottom: 20px;
 }
+
+.project {
+  text-align: justify;
+}
